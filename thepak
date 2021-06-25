@@ -18,7 +18,7 @@ unpacking () {
 }
 
 repacking () {
-  qemu-i386 $PREFIX/share/quickbms/quickbms -w -r -r etc/tools.bms $opt output
+  qemu-i386 $PREFIX/share/quickbms/quickbms -w -r etc/tools.bms $opt output
 }
 
 function unpack {
